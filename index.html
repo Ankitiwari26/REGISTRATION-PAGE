@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Shop Management App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Sharpener Candy Shop</h1>
+    <div class="input-section">
+        <label for="candy">Candy Name:</label>
+        <input type="text" id="candy">
+
+        <label for="description">Description:</label>
+        <input type="text" id="description">
+
+        <label for="price">Price:</label>
+        <input type="number" id="price">
+
+        <label for="stock">Quantity:</label>
+        <input type="number" id="stock">
+
+        <button id="add-btn">Add</button>
+    </div>
+
+    <div class="inventory">
+        <h2>Inventory</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Candy</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Sold</th>
+                    <th>Counter</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="candy-table-body">
+                <!-- Table body content goes here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

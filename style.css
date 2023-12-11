@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Center the heading */
+}
+
+.input-section,
+.inventory {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333; /* Add a border around the table */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Center the text in cells */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.counter {
+    font-weight: bold;
+}
+
+#total-amount {
+    font-weight: bold;
+}
+
+.input-section,
+.inventory {
+    text-align: center; /* Center the content in input-section and inventory */
+}
